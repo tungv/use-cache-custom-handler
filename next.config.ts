@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       default: require.resolve("./cache/default.js"),
       remote: require.resolve("./cache/remote.js"),
       static: require.resolve("./cache/static.js"),
+      my_handler: require.resolve("./cache/my-handler.js"),
     },
   },
   cacheMaxMemorySize: 0,

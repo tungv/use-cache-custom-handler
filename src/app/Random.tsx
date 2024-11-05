@@ -6,6 +6,6 @@ export default async function Random() {
 }
 
 async function getRandomNumber() {
-  "use cache";
+  "use cache: my_handler";
   return Math.random();
 }
